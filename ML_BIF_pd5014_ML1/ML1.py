@@ -4,8 +4,9 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-#Wczytanie pliku
-df = pd.read_csv("dane_projekt1.csv")
+#Wczytanie pliku, tu nie wiedziałam czy mam udostępnić dane pliku csv z mojego github czy mam założyć z góry, że plik najduje się już u mnie na komputerz więc przedstawiam dwie wersie:  
+#df = pd.read_csv("dane_projekt1.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/gocaleksandra5/ML_BIF_pd5014/main/ML_BIF_pd5014_ML1/dane_projekt1.csv")
 
 #Podstawowych statystyk
 print("Podstawowe statystyki")
