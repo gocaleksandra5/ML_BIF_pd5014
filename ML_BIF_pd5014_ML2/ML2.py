@@ -64,3 +64,13 @@ ConfusionMatrixDisplay.from_predictions(y_test, y_pred, display_labels=["Healthy
 
 plt.title("Random Forest - Confusion Matrix")
 plt.show()
+
+
+#Wyniki:
+# Accuracy = 1.0, Precision = 1.0, Recall = 1.0 oraz F1-score = 1.0.
+# Oznacza to, że wszystkie próbki ze zbioru testowego zostały sklasyfikowane poprawnie. Macierz pomyłek nie zawiera błędnych klasyfikacji (brak False Positive i False Negative).
+
+
+
+
+
