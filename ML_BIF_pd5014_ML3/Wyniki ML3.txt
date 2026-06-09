@@ -1,0 +1,33 @@
+Wariant 1 ML3
+
+Podział danych zmieniono na 70% trening / 30% test (test_size=0.30)
+Funkcja aktywacji zmieniona z ReLU na tanh
+Liczba neuronów zwiększona z (8,4) do (12,6)
+Liczba iteracji zwiększona z 1000 do 1500
+
+Wyniki:
+
+Accuracy = 1.00
+Precision = 1.00
+Recall = 1.00
+F1-score = 1.00
+
+
+Wariant 2 MLL3 
+
+Podział danych był 75% trening / 25% test (test_size=0.25)
+Funkcja aktywacji zmieniona z ReLU na logistic (sigmoid)
+Liczba neuronów zwiększona do (16,8)
+Liczba iteracji zwiększona do 2000
+
+Wyniki:
+
+Accuracy = 1.00
+Precision = 1.00
+Recall = 1.00
+F1-score = 1.00
+
+Wnioski: 
+- Modyfikacje parametrów sieci neuronowej nie wpłynęły na zmianę jakości klasyfikacji. 
+- Zarówno zwiększenie liczby neuronów i iteracji, jak i zastosowanie innych funkcji aktywacji (tanh oraz logistic) nie poprawiło wyników, ponieważ model bazowy osiągał wysoką skuteczność klasyfikacji. 
+- Wszystkie konfiguracje uzyskały wartości Accuracy, Precision, Recall oraz F1-score równe 1.00, a macierze pomyłek nie zawierały błędnych klasyfikacji. 
