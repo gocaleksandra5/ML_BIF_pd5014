@@ -4,9 +4,12 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-#Wczytanie pliku, tu nie wiedziałam czy mam udostępnić dane pliku csv z mojego github czy mam założyć z góry, że plik najduje się już u mnie na komputerz więc przedstawiam dwie wersie:  
-#df = pd.read_csv("dane_projekt1.csv")
-df = pd.read_csv("https://raw.githubusercontent.com/gocaleksandra5/ML_BIF_pd5014/main/ML_BIF_pd5014_ML1/dane_projekt1.csv")
+#Na tym etapie nie było dla mnie jasne, czy dane powinny być wczytywane bezpośrednio z pliku CSV udostępnionego w repozytorium GitHub, czy też można założyć, 
+#że plik znajduje się lokalnie na komputerze użytkownika. Z tego względu przygotowałam dwie wersje rozwiązania: 
+#pierwszą wykorzystującą plik CSV pobierany z GitHuba, a drugą zakładającą, że plik jest już zapisany lokalnie i dostępny do wczytania z dysku.
+
+#df = pd.read_csv("dane_projekt1.csv")  - pobrane lokalnie 
+df = pd.read_csv("https://raw.githubusercontent.com/gocaleksandra5/ML_BIF_pd5014/main/ML_BIF_pd5014_ML1/dane_projekt1.csv") # dane pobierane z Github
 
 #Podstawowych statystyk
 print("Podstawowe statystyki")
